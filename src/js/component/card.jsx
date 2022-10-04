@@ -10,7 +10,7 @@ const Card = () => {
     "https://i.pinimg.com/originals/08/f9/e7/08f9e71697023cf5eccf1dc476304ff3.jpg"]
     let img_random = imgs[(Math.floor(Math.random() * imgs.length))]
     return (
-        <div class="card" style={{width: "16rem"}}>
+        <div class="card m-auto" style={{width: "16rem"}}>
             <img src={img_random} class="card-img-top" />
             <div class="card-body">
                 <h5 class="card-title text-center">Card title</h5>
